@@ -1,0 +1,19 @@
+.searchbar {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(50, 84, 255);
+  padding: 0.75rem 1rem;
+}
+
+.search-icon {
+  color: rgb(50, 84, 255);
+  margin-right: 2rem;
+}
+
+.searchbar input {
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  width: 100%;
+  background-color: #F4F6F8;
+}

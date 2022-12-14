@@ -1,0 +1,26 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.wrap,
+.filter,
+.productgrid {
+  overflow-y: auto;
+}
+
+.wrap {
+  flex: 1;
+  display: flex;
+}
+
+.filter {
+  flex-basis: 280px;
+  padding: 1rem;
+}
+
+.productgrid {
+  flex: 1;
+  padding: 1rem;
+}
